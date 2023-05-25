@@ -6,10 +6,11 @@ namespace learningArray
     {
         static void Main(string[] args)
         {
-            string[] friends = { "kathir", "vicky", "hari", "nicky", "john" };
+            string[] friends = { "kathir", "vicky", "hari", "nicky", "john","kili" };
             foreach (string friend in friends)
             {
                 Console.WriteLine("Welcome {0}",friend);
+                
             }
         }
     }
